@@ -37,6 +37,9 @@
 .law-icon, .duty-icon {
 	width: 30%;
 }
+.law-icon {
+	margin-left: 9%;
+}
 
 /*CONTENT*/
 .law-text, .duty-text {
