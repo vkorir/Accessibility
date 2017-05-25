@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /**
-* Eric Meyer's Reset CSS v2.0
+* Victor Korir's Reset CSS v2.0
 */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -96,6 +96,79 @@ embed,
 object,
 video {
 	max-width: 100%;
+}
+
+@font-face {
+	font-family: 'MarkerFont';
+	src: url('fonts/Marker Felt.ttf');
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/Myriad Pro Regular.ttf');
+}
+
+.btn {
+	display: inline-block;
+	font-family: 'MarkerFont';
+	font-weight: normal;
+	line-height: 2.5;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border: 2px solid transparent;
+	padding: 0rem 0rem;
+	font-size: 4rem;
+	background-color: #fff;
+	border-radius: 3rem;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.btn:focus, .btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+}
+.btn-thesis {
+	color: #bade84;
+	border-color: #bade84;
+	padding: 0.1rem 3rem;
+	margin-top: 40px;
+}
+.btn-law {
+	color: #e5cb7e;
+	border-color: #e5cb7e;
+	padding: 0.01rem 1rem;
+}
+.btn-duty {
+	color: #d57d01;
+	border-color: #d57d01;
+	padding: 0.01rem 1rem;
+}
+.btn-physical {
+	color: #f09e66;
+	border-color: #f09e66;
+	padding: 0 1rem 0 1rem;
+	margin-top: 0.5em;
+}
+.btn-training {
+	font-family: 'MyriadPro';
+	color: #d286e0;
+	border-color: #d286e0;
+	line-height: 2em;
+	padding: 0 1rem 0 1rem;
+	margin: 5px 0 5px 0;
+	background-color: transparent;
+}
+.center {
+	text-align: center;
 }
 
 .group:before,
@@ -433,9 +506,6 @@ color: #383838;
 	position: relative;
 	width: 2437px;
 }
-.wrapper-3:hover {
-	opacity: 0.5;
-}
 .handshake {
 	left: 50%;
 	position: absolute;
@@ -744,33 +814,4 @@ color: #383838;
 	font-size: 1.200048em; /* 100px / 83.33px = 1.200048em */
 	font-weight: 300;
 	line-height: 1.2;
-}
-@-webkit-keyframes hvr-pop {
-  50% {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-}
-@keyframes hvr-pop {
-  50% {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-  }
-}
-.hvr-pop {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-}
-.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
-  -webkit-animation-name: hvr-pop;
-  animation-name: hvr-pop;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
 }
