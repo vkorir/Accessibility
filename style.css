@@ -147,6 +147,11 @@ video {
 	border-color: #e5cb7e;
 	padding: 0.01rem 1rem;
 }
+.btn-disabilities {
+	color: #5a68ff;
+	border-color: #5a68ff;
+	padding: 0.01rem 1rem;
+}
 .btn-duty {
 	color: #d57d01;
 	border-color: #d57d01;
@@ -218,7 +223,7 @@ body {
 	min-height: 7200px;
 	position: relative;
 	width: 5400px;
-	background: rgba(238, 238, 238, 0.77);
+	background: rgba(255, 255, 255, 1.0);
 }
 .layer-15 {
 	left: 50%;
