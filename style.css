@@ -30,7 +30,9 @@ footer, header, menu, nav, section, time {
 }
 
 html {
-	zoom: 25%;
+	transform: translate(-710px, -1000px) rotate(0rad) skewX(0rad) scale(0.25, 0.25);
+	transform-origin: 1010px 1429px 0px;
+	width: 100%;
 }
 
 body {
@@ -153,9 +155,10 @@ video {
 	padding: 0.01rem 1rem;
 }
 .btn-duty {
+	position: relative;
 	color: #d57d01;
 	border-color: #d57d01;
-	padding: 0.01rem 1rem;
+	padding: 1rem;
 }
 .btn-physical {
 	color: #f09e66;
@@ -424,6 +427,9 @@ color: #383838;
 	margin: 0 37px 0 0;
 	position: relative;
 	width: 817px;
+}
+.col-3:hover {
+	cursor: default;
 }
 .a-disability-is {
 	display: block;
